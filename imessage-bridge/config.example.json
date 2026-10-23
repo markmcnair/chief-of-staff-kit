@@ -1,0 +1,8 @@
+{
+  "webhook_url": "https://YOUR-GROK-BOT-WEBHOOK-ROUTINE-URL",
+  "webhook_key": "YOUR_WEBHOOK_SECRET",
+  "webhook_auth_header": "Authorization",
+  "webhook_auth_scheme": "Bearer",
+  "outbox_url": "https://YOUR_PROJECT_REF.supabase.co/functions/v1/bridge-outbox",
+  "bridge_secret": "YOUR_BRIDGE_SECRET"
+}

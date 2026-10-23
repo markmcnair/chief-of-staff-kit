@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.example.imessage-bridge</string>
+  <key>ProgramArguments</key>
+  <array>
+    <!-- Must be the exact Python binary you granted Full Disk Access (see README). -->
+    <string>__PYTHON__</string>
+    <string>__HOME__/.imessage-bridge/bridge.py</string>
+  </array>
+  <key>StartInterval</key><integer>20</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardErrorPath</key><string>__HOME__/.imessage-bridge/launchd.err</string>
+</dict>
+</plist>

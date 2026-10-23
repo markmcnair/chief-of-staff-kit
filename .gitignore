@@ -1,0 +1,10 @@
+.env
+*.db
+*.log
+*.jsonl
+*_state.json
+watcher_authmode
+config.json
+contacts*.json
+__pycache__/
+.DS_Store
